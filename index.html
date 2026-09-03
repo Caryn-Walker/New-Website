@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hearth &amp; Co. — Neighborhood Bakery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ======================================================
+  EDIT ME: change "Hearth & Co." everywhere to your business name.
+  This block is the site header / navigation.
+======================================================= -->
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#top" class="wordmark">Hearth &amp; Co.</a>
+    <nav class="main-nav">
+      <a href="#about">About</a>
+      <a href="#offerings">What we make</a>
+      <a href="#visit">Visit</a>
+      <a href="#contact" class="nav-cta">Get in touch</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO: your one-sentence pitch + the single most important action -->
+<section id="top" class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="hero-kicker">Open every day, 7am–4pm</p>
+      <h1>Bread and pastry, baked before the sun's fully up.</h1>
+      <p class="hero-lede">
+        Hearth &amp; Co. is a small bakery on the corner of Mill and 4th,
+        making sourdough, morning pastry, and cakes to order for the
+        neighborhood since 2016.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Order a cake</a>
+        <a href="#visit" class="btn btn-quiet">Find us</a>
+      </div>
+    </div>
+    <dl class="hero-stats">
+      <div>
+        <dt>2016</dt>
+        <dd>Baking here since</dd>
+      </div>
+      <div>
+        <dt>30+</dt>
+        <dd>Loaves out by 8am</dd>
+      </div>
+      <div>
+        <dt>1</dt>
+        <dd>Oven, one team, no shortcuts</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<!-- ABOUT: replace with your own story -->
+<section id="about" class="about">
+  <div class="wrap about-grid">
+    <h2>A small oven, run by three people</h2>
+    <div class="about-body">
+      <p>
+        We start each loaf the night before, let it rise slow, and shape
+        it by hand in the morning. Nothing here is made to sit around —
+        most of what's on the counter by 9am is gone by noon, and we're
+        fine with that.
+      </p>
+      <p>
+        Ana runs the ovens, Tomás handles pastry, and Priya takes care of
+        everything else, from cake orders to the coffee machine that's
+        older than the shop itself.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- OFFERINGS: swap for your services/products. Add or remove <article> blocks freely. -->
+<section id="offerings" class="offerings">
+  <div class="wrap">
+    <h2>What we make</h2>
+    <div class="offerings-grid">
+      <article class="offering">
+        <h3>Sourdough &amp; daily loaves</h3>
+        <p>A rotating rye, a country white, and whatever else rose well that night. Out by 7:30am, usually gone by 11.</p>
+      </article>
+      <article class="offering">
+        <h3>Morning pastry</h3>
+        <p>Croissants, cardamom buns, and a seasonal fruit danish. Best eaten within the hour, still warm.</p>
+      </article>
+      <article class="offering">
+        <h3>Cakes to order</h3>
+        <p>Birthdays, weddings, small gatherings. Tell us the size and the flavor — give us three days' notice.</p>
+      </article>
+      <article class="offering">
+        <h3>Coffee</h3>
+        <p>A short, honest menu: drip, espresso, and one seasonal drink that changes every couple of months.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT: hours + location. Swap the map embed link for your own address. -->
+<section id="visit" class="visit">
+  <div class="wrap visit-grid">
+    <div>
+      <h2>Visit</h2>
+      <p class="visit-address">128 Mill Street, at 4th<br>Riverton</p>
+      <table class="hours">
+        <tr><td>Mon – Fri</td><td>7:00am – 4:00pm</td></tr>
+        <tr><td>Saturday</td><td>7:00am – 2:00pm</td></tr>
+        <tr><td>Sunday</td><td>Closed</td></tr>
+      </table>
+    </div>
+    <div class="map-placeholder" aria-hidden="true">
+      <!-- EDIT ME: replace with an <iframe> map embed, or a photo of your storefront -->
+      Map or storefront photo goes here
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT: swap the mailto address and phone number for your own -->
+<section id="contact" class="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Order a cake, or just say hello</h2>
+      <p>We reply fastest by phone, but email works too.</p>
+    </div>
+    <div class="contact-details">
+      <a href="mailto:hello@hearthandco.example">hello@hearthandco.example</a>
+      <a href="tel:+15551234567">(555) 123-4567</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="year"></span> Hearth &amp; Co.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>  
